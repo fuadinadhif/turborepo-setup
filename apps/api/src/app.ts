@@ -30,3 +30,5 @@ app.post("/api/users", async (request, response) => {
 
 const PORT = process.env.PORT || "8000";
 app.listen(PORT, () => console.info(`Server is listening on port: ${PORT}`));
+
+export default app;
